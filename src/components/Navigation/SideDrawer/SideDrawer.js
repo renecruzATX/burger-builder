@@ -7,7 +7,7 @@ import Aux from '../../../hoc/Aux';
 
 
 const sideDrawer = (props) => {
-    let attachedStyles = [styles.SideDrawer, styles.Close];
+    let attachedStyles = [styles.SideDrawer, styles.Closed];
     if (props.open) {
         attachedStyles = [styles.SideDrawer, styles.Open];
     }
